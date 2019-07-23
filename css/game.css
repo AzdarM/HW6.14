@@ -1,0 +1,25 @@
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 180px);
+    grid-template-rows: repeat(6, 10vh);
+    grid-gap: 1px;
+}
+
+.grid-item {
+    box-sizing: border-box;
+    min-width: 180px;
+    min-height: 10vh;
+    line-height: 10vh;
+    background: orange;
+}
+
+.target {
+    background-color: green;
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+}
+
+.miss {
+    background-color: red;
+}
